@@ -21,7 +21,7 @@ const BlogPage = async ({ params: { blogID } }: Params) => {
 						{blog.readable_publish_date.split(" ")[0]}
 					</div>
 				</div>
-				<div className='flex flex-col gap-4'>
+				<div className='flex flex-col gap-4 flex-grow'>
 					<h2 className='text-3xl font-bold text-primary'>{blog.title}</h2>
 
 					<p
